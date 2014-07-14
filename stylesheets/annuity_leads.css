@@ -958,7 +958,7 @@ button:hover {
 #HD1Container h1{
 	position:absolute;
 	right:-120px;
-	top:30px;
+	top:20px;
 	width:100px;
 	text-align:center;
 	font-size:24px;
@@ -978,7 +978,7 @@ button:hover {
 	width: 500px;
 	background-color: white;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 160px;
 	border-top-width: 3px;
 	border-right-width: 1px;
@@ -1015,7 +1015,7 @@ button:hover {
 	width: 500px;
 	background-color: white;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 20px;
 	border-top-width: 3px;
 	border-right-width: 1px;
@@ -1035,7 +1035,7 @@ button:hover {
 #HD3Container h1{
 	position:absolute;
 	right:-120px;
-	top:30px;
+	top:20px;
 	width:100px;
 	text-align:center;
 	font-size:24px;
