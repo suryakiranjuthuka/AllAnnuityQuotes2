@@ -33,12 +33,12 @@ function counter()
 	.style("left","300px")
 	.style("top","100px")
 	
-	d3.select("#hex3")
+	d3.select("#hex4")
 	.transition()
 	.duration(300)
 	.delay(1000)
-	.style("-webkit-transform","scale(1.2)")
-	.style("transform","scale(1.2)")
+	.style("-webkit-transform","scale(1.15)")
+	.style("transform","scale(1.15)")
 	
 	d3.select("#tickIcon")
 	.transition()
@@ -95,8 +95,8 @@ function counter()
 	.transition()
 	.duration(300)
 	.delay(5000)
-	.style("-webkit-transform","scale(1.2)")
-	.style("transform","scale(1.2)")
+	.style("-webkit-transform","scale(1.15)")
+	.style("transform","scale(1.15)")
 	
 	
 	
@@ -155,8 +155,8 @@ function counter()
 	.transition()
 	.duration(300)
 	.delay(9000)
-	.style("-webkit-transform","scale(1.2)")
-	.style("transform","scale(1.2)")
+	.style("-webkit-transform","scale(1.15)")
+	.style("transform","scale(1.15)")
 	
 	
 	

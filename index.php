@@ -38,7 +38,7 @@
 
 
 	
-    <div class=" container">
+    <div class=" bottomShadow container">
 	
 <header> <!--class="bottomShadow"-->
     
@@ -60,13 +60,15 @@
 
 
 
-
-<section id="subTitleForm">
+<section class="bottomShadow" id="subTitleForm">
+<div id="subTitleFormCenter">
 
 <div id="hexContainer">
 
 	<div id="tickIcon"><img height="40" src="site_images/tick.png"></div>
-
+	
+    <div class="hex4" id="hex4"></div>
+    
 	<div class="hex1 allShadow" id="hex1"><div id="hexText1">Best Rates Available</div></div>
     <div class="hex2 allShadow" id="hex2"><div id="hexText2">Guaranteed Principal</div></div>
     <div class="hex3 allShadow" id="hex3"><div id="hexText3">Life-long Income</div></div>
@@ -78,13 +80,9 @@
 
 
 
-
-
-
-
 <!--*************************************************************** Start FORM ******************************************************-->
-<section id="annuityFormContainer">
-
+<section class="allShadow" id="annuityFormContainer">
+	<div class="formTriangle"></div>
 
 	<img height="80" src="site_images/email.png">
 	
@@ -202,12 +200,18 @@
 
 
 
-
-
-
-
-
+</div>
 </section>
+
+
+
+
+
+
+
+
+
+
 
 
 <script type="text/javascript" src="javascripts/d3.min.js"></script>
