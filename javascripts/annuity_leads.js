@@ -9,7 +9,7 @@ $( document ).ready( function(){ counter() } );
 
 var i = 0;
 
-setInterval(function() { counter() }, 12000);
+setInterval(function() { counter() }, 12200);
 
 
 function counter()
@@ -37,6 +37,11 @@ function counter()
 	.transition()
 	.duration(300)
 	.delay(1000)
+	.each("start",function(){
+		d3.select(this)
+		.style("display","block")
+		.classed({'hex5': false, 'hex6': false, 'hex4': true})
+	})
 	.style("-webkit-transform","scale(1.15)")
 	.style("transform","scale(1.15)")
 	
@@ -45,7 +50,7 @@ function counter()
 	.duration(300)
 	.delay(1500)
 	.style("opacity",1)
-	.style("top",110+"px")
+	.style("top",115+"px")
 	
 	d3.select("#tickIcon")
 	.transition()
@@ -54,12 +59,18 @@ function counter()
 	.style("opacity",0)
 	.style("top",61+"px")
 	
-	d3.select("#hex3")
+	d3.select("#hex4")
 	.transition()
 	.duration(500)
 	.delay(3000)
 	.style("-webkit-transform","scale(1)")
 	.style("transform","scale(1)")
+	
+	d3.select("#hex4")
+	.transition()
+	.duration(0)
+	.delay(3500)
+	.style("display","none")
 	
 /*	d3.selectAll("#hex1, #hex2, #hex3")
 	.transition()
@@ -90,11 +101,15 @@ function counter()
 	.style("left","210px")
 	.style("top","250px")	
 	
-	
-	d3.select("#hex2")
+	d3.select("#hex4")
 	.transition()
 	.duration(300)
 	.delay(5000)
+	.each("start",function(){
+		d3.select(this)
+		.style("display","block")
+		.classed({'hex5': true, 'hex6': false, 'hex4': false})	
+	})
 	.style("-webkit-transform","scale(1.15)")
 	.style("transform","scale(1.15)")
 	
@@ -105,7 +120,7 @@ function counter()
 	.duration(300)
 	.delay(5500)
 	.style("opacity",1)
-	.style("top",110+"px")
+	.style("top",115+"px")
 	
 	d3.select("#tickIcon")
 	.transition()
@@ -114,12 +129,19 @@ function counter()
 	.style("opacity",0)
 	.style("top",61+"px")
 	
-	d3.select("#hex2")
+	
+	d3.select("#hex4")
 	.transition()
 	.duration(500)
 	.delay(7000)
 	.style("-webkit-transform","scale(1)")
 	.style("transform","scale(1)")
+	
+	d3.select("#hex4")
+	.transition()
+	.duration(0)
+	.delay(7500)
+	.style("display","none")
 	
 	
 	
@@ -151,10 +173,15 @@ function counter()
 	
 	
 	
-	d3.select("#hex1")
+	d3.select("#hex4")
 	.transition()
 	.duration(300)
 	.delay(9000)
+	.each("start",function(){
+		d3.select(this)
+		.style("display","block")
+		.classed({'hex5': false, 'hex6': true, 'hex4': false})	
+	})
 	.style("-webkit-transform","scale(1.15)")
 	.style("transform","scale(1.15)")
 	
@@ -165,7 +192,7 @@ function counter()
 	.duration(300)
 	.delay(9500)
 	.style("opacity",1)
-	.style("top",110+"px")
+	.style("top",115+"px")
 	
 	d3.select("#tickIcon")
 	.transition()
@@ -174,12 +201,18 @@ function counter()
 	.style("opacity",0)
 	.style("top",61+"px")
 	
-	d3.select("#hex1")
+	d3.select("#hex4")
 	.transition()
 	.duration(500)
 	.delay(11000)
 	.style("-webkit-transform","scale(1)")
 	.style("transform","scale(1)")
+	
+	d3.select("#hex4")
+	.transition()
+	.duration(0)
+	.delay(11500)
+	.style("display","none")
 	
 
 
