@@ -669,7 +669,7 @@ header h1 span{
 
 #subTitleForm{
 	width:100%;
-	background-color:#F68565;
+	background-color:#112F41;
 	position:relative;
 	border-top:2px solid #2E3846;
 	/*border:1px solid lightgrey;*/
@@ -761,7 +761,7 @@ header h1 span{
 /*---------------- FORM CONTAINER ----------------*/
 #annuityFormContainer{
 	width:300px;
-	background-color:#2E3846;
+	background-color:#068587;
 	padding-bottom:80px;
 	padding-top:20px;
 	padding-right:80px;
@@ -779,7 +779,7 @@ header h1 span{
 	height: 0; 
 	border-top: 30px solid transparent;
 	border-bottom: 30px solid transparent; 
-	border-right:30px solid #2E3846; 
+	border-right:30px solid #068587; 
 	position:relative;
 	right:105px;
 	top:70px;
