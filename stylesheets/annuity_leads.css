@@ -334,7 +334,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex1:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid #F2945E;
+    border-bottom: 45px solid #76D690;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
@@ -345,7 +345,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     margin-top: 45px;
     width: 156px;
     height: 90px;
-    background-color: #F2945E;
+    background-color: #76D690;
     position: relative;
 }
 
@@ -354,7 +354,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     width: 0;
     position: absolute;
     bottom: -44px;
-    border-top: 45px solid #F2945E;
+    border-top: 45px solid #76D690;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
@@ -363,7 +363,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex2:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid #DA727E;
+    border-bottom: 45px solid #2E3846;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
@@ -374,7 +374,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     margin-top: 45px;
     width: 156px;
     height: 90px;
-    background-color: #DA727E;
+    background-color: #2E3846;
     position: relative;
 }
 
@@ -383,7 +383,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     width: 0;
     position: absolute;
     bottom: -44px;
-    border-top: 45px solid #DA727E;
+    border-top: 45px solid #2E3846;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
@@ -392,7 +392,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex3:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid #455C7B;
+    border-bottom: 45px solid #F68565;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
@@ -403,7 +403,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     margin-top: 45px;
     width: 156px;
     height: 90px;
-    background-color: #455C7B;
+    background-color: #F68565;
     position: relative;
 }
 
@@ -412,7 +412,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     width: 0;
     position: absolute;
     bottom: -44px;
-    border-top: 45px solid #455C7B;
+    border-top: 45px solid #F68565;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
