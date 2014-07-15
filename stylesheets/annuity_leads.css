@@ -1,10 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300, 400,600);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500);
 /*------ COLOR PALLET-----*/
 /*
 #565347  :  GREY(link & Paragraph)
@@ -339,7 +338,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
-    top: -44px
+    top: -45px
 }
 
 .hex1 {
@@ -373,7 +372,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 
 .hex2 {
     margin-top: 45px;
-    width: 156px;
+    width: 155px;
     height: 90px;
     background-color: #F68565;
     position: relative;
@@ -383,7 +382,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     content: "";
     width: 0;
     position: absolute;
-    bottom: -44px;
+    bottom: -45px;
     border-top: 45px solid #F68565;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
@@ -397,12 +396,12 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
-    top: -44px
+    top: -45px
 }
 
 .hex3 {
     margin-top: 45px;
-    width: 156px;
+    width: 155px;
     height: 90px;
     background-color: #068587;
     position: relative;
@@ -412,7 +411,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     content: "";
     width: 0;
     position: absolute;
-    bottom: -44px;
+    bottom: -45px;
     border-top: 45px solid #068587;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
@@ -421,18 +420,18 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex4:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid lightgrey;
+    border-bottom: 45px solid rgba(6,133,135,.5);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
-    top: -44px
+    top: -45px
 }
 
 .hex4 {
     margin-top: 45px;
-    width: 156px;
+    width: 155px;
     height: 90px;
-    background-color: lightgrey;
+    background-color: rgba(6,133,135,.5);
     position: relative;
 }
 
@@ -440,8 +439,8 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     content: "";
     width: 0;
     position: absolute;
-    bottom: -44px;
-    border-top: 45px solid lightgrey;
+    bottom: -45px;
+    border-top: 45px solid rgba(6,133,135,.5);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
@@ -449,18 +448,18 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex5:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid #76D690;
+    border-bottom: 45px solid rgba(246,133,101,.5);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
-    top: -44px
+    top: -45px
 }
 
 .hex5 {
     margin-top: 45px;
-    width: 156px;
+    width: 155px;
     height: 90px;
-    background-color: #76D690;
+    background-color: rgba(246,133,101,.5);
     position: relative;
 }
 
@@ -468,8 +467,8 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     content: "";
     width: 0;
     position: absolute;
-    bottom: -44px;
-    border-top: 45px solid #76D690;
+    bottom: -45px;
+    border-top: 45px solid rgba(246,133,101,.5);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
@@ -477,18 +476,18 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex6:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid #2E3846;
+    border-bottom: 45px solid rgba(118,214,144,.5);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
-    top: -44px
+    top: -45px
 }
 
 .hex6 {
     margin-top: 45px;
-    width: 156px;
+    width: 155px;
     height: 90px;
-    background-color: #2E3846;
+    background-color: rgba(118,214,144,.5);
     position: relative;
 }
 
@@ -496,8 +495,8 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     content: "";
     width: 0;
     position: absolute;
-    bottom: -44px;
-    border-top: 45px solid #2E3846;
+    bottom: -45px;
+    border-top: 45px solid rgba(118,214,144,.5);
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
@@ -672,10 +671,10 @@ header h1 span{
 	width:100%;
 	background-color:#112F41;
 	position:relative;
-	border-top:2px solid #2E3846;
-	/*border:1px solid lightgrey;*/
-
+	border-top:2px solid #FC5B3F;
 }
+
+
 
 #subTitleFormCenter{
 	width:1200px;
@@ -763,7 +762,7 @@ header h1 span{
 #annuityFormContainer{
 	width:300px;
 	background-color:#068587;
-	padding-bottom:80px;
+	padding-bottom:110px;
 	padding-top:20px;
 	padding-right:80px;
 	padding-left:80px;
@@ -783,8 +782,7 @@ header h1 span{
 	border-right:30px solid #068587; 
 	position:relative;
 	right:105px;
-	top:70px;
-	
+	top:70px;	
 }
 
 #formInstructions{
@@ -959,7 +957,7 @@ button:hover {
 #HD1Container h1{
 	position:absolute;
 	right:-150px;
-	top:30px;
+	top:25px;
 	width:150px;
 	text-align:center;
 	font-size:24px;
@@ -1038,7 +1036,7 @@ button:hover {
 #HD3Container h1{
 	position:absolute;
 	right:-160px;
-	top:30px;
+	top:25px;
 	width:150px;
 	text-align:center;
 	font-size:24px;
@@ -1051,54 +1049,10 @@ button:hover {
 	padding:20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#subTitleForm{
+/*----------------Calculator Styles----------------------*/
+#calculatorContainer{
 	width:100%;
-	background-color:#112F41;
-	position:relative;
-	border-top:2px solid #FC5B3F;
-	/*border:1px solid lightgrey;*/
-
+	height:700px;
+	background-color:#ededed;
+	margin-top:55px;
 }
-
-
-
-
-#annuityFormContainer{
-	width:300px;
-	background-color:#068587;
-	padding-bottom:80px;
-	padding-top:20px;
-	padding-right:80px;
-	padding-left:80px;
-	/*border-radius:5px;*/
-	position:relative;
-	float:right;
-	text-align:center;
-	margin-top:100px;
-	font-family:'Lato';
-}
-
-.formTriangle {
-	width: 0; 
-	height: 0; 
-	border-top: 30px solid transparent;
-	border-bottom: 30px solid transparent; 
-	border-right:30px solid #068587; 
-	position:relative;
-	right:105px;
-	top:70px;
-	
-}
-
-

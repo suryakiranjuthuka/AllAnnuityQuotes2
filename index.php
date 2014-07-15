@@ -63,13 +63,13 @@
 <section class="bottomShadow" id="subTitleForm">
 <div id="subTitleFormCenter">
 
-<div id="hex11" class="bottomShadow allShadow hex11"><div id="hex11Text">Why an annuity?</div></div>
+<div id="hex11" class=" allShadow hex11"><div id="hex11Text">Why an annuity?</div></div>
 
 <div id="hexContainer">
 
 	<div id="tickIcon"><img height="40" src="site_images/tick.png"></div>
 	
-    <div id="hex4"></div>
+    <div class="allShadow" id="hex4"></div>
     
 	<div class="hex1 allShadow" id="hex1"><div id="hexText1">Best Rates Available</div></div>
     <div class="hex2 allShadow" id="hex2"><div id="hexText2">Guaranteed Principal</div></div>
@@ -221,6 +221,13 @@
 
 </section>
 
+
+
+<section id="calculatorContainer">
+
+	
+
+</section>
 
 
 
