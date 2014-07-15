@@ -4,6 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300, 400,600);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
 /*------ COLOR PALLET-----*/
 /*
 #565347  :  GREY(link & Paragraph)
@@ -343,7 +344,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 
 .hex1 {
     margin-top: 45px;
-    width: 156px;
+    width: 155px;
     height: 90px;
     background-color: #76D690;
     position: relative;
@@ -353,7 +354,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     content: "";
     width: 0;
     position: absolute;
-    bottom: -44px;
+    bottom: -45px;
     border-top: 45px solid #76D690;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
@@ -363,18 +364,18 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex2:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid #2E3846;
+    border-bottom: 45px solid #F68565;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
-    top: -44px
+    top: -45px
 }
 
 .hex2 {
     margin-top: 45px;
     width: 156px;
     height: 90px;
-    background-color: #2E3846;
+    background-color: #F68565;
     position: relative;
 }
 
@@ -383,7 +384,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     width: 0;
     position: absolute;
     bottom: -44px;
-    border-top: 45px solid #2E3846;
+    border-top: 45px solid #F68565;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
@@ -392,7 +393,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
 .hex3:before {
     content: " ";
     width: 0; height: 0;
-    border-bottom: 45px solid #4e4b63;
+    border-bottom: 45px solid #068587;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     position: absolute;
@@ -403,7 +404,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     margin-top: 45px;
     width: 156px;
     height: 90px;
-    background-color: #4e4b63;
+    background-color: #068587;
     position: relative;
 }
 
@@ -412,7 +413,7 @@ box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
     width: 0;
     position: absolute;
     bottom: -44px;
-    border-top: 45px solid #4e4b63;
+    border-top: 45px solid #068587;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
 }
@@ -623,14 +624,14 @@ header h1 span{
 #tagLine{
 	color:white;
 	/*color:#2E3846;*/
-	font-family:'Quicksand','Lato', 'Open Sans';
-	font-size:40px;
+	font-family:'Raleway','Lato', 'Open Sans';
+	font-size:55px;
 	text-transform:capitalize;
 	width:100%;
 	text-align:center;
-	margin-top:50px;
-	font-weight:700;
-	letter-spacing:-2px;
+	margin-top:40px;
+	font-weight:400;
+	letter-spacing:0px;
 }
 
 
@@ -750,12 +751,12 @@ header h1 span{
 
 #hex11Text{
 	color:#2E3846;
-	font-family:'Quicksand', 'Lato';
-	font-weight:400;
+	font-family:'Raleway', 'Lato';
+	font-weight:300;
 	font-size:26px;
 	position:relative;
 	top:25px;
-	left:25px;
+	left:30px;
 }
 
 /*---------------- FORM CONTAINER ----------------*/
@@ -803,8 +804,8 @@ header h1 span{
 
 #annuityFormContainer  h1{
 	font-size:34px;
-	font-family:'Quicksand', 'Lato';
-	font-weight:700;
+	font-family:'Raleway', 'Lato';
+	font-weight:500;
 	color:#76D690;
 	margin-top:10px;
 	margin-bottom:10px;
@@ -836,7 +837,7 @@ input[type="text"],
 input[type="password"]{
 	padding: 8px;
 	width: 100%;
-	border: 2px solid #e75854;
+	border: 2px solid #FFD88F;
 	color: #b09a86;
 	font-size: 16px;
 	font-family:inherit;
@@ -848,7 +849,7 @@ input[type="password"]{
 select{
 	padding: 8px;
 	width: 106%;	
-	border: 2px solid #e75854;
+	border: 2px solid #FFD88F;
 	color: #b09a86;
 	font-size:  16px;
 	font-family:inherit;
@@ -892,7 +893,7 @@ button {
 	height:50px;
 	margin:0px auto;
 	border: none;
-	background: #76D690;
+	background: #F68565;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -908,12 +909,12 @@ button {
 }
 
 button:hover {
-	background-color:#F68565;
+	background-color:#f79275;
 	top:42px;
 }
 
 #fromDisclaimer{
-	color:grey;
+	color:white;
 	position:relative;
 	bottom:0px;
 	text-align:center;
@@ -948,7 +949,7 @@ button:hover {
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #4E4B63;
+	border-top-color: #068587;
 	border-right-color: lightgrey;
 	border-bottom-color: lightgrey;
 	border-left-color: lightgrey;
@@ -957,13 +958,14 @@ button:hover {
 
 #HD1Container h1{
 	position:absolute;
-	right:-120px;
+	right:-150px;
 	top:30px;
-	width:100px;
+	width:150px;
 	text-align:center;
 	font-size:24px;
 	line-height:1.2;
-	color:#4E4B63;
+	color:#068587;
+	font-family:'Raleway';
 }
 
 #HD1Text{
@@ -978,7 +980,7 @@ button:hover {
 	width: 500px;
 	background-color: white;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 160px;
 	border-top-width: 3px;
 	border-right-width: 1px;
@@ -1004,6 +1006,7 @@ button:hover {
 	font-size:24px;
 	line-height:1.2;
 	color:#76D690;
+	font-family:'Raleway';
 }
 
 #HD2Text{
@@ -1015,7 +1018,7 @@ button:hover {
 	width: 500px;
 	background-color: white;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 20px;
 	border-top-width: 3px;
 	border-right-width: 1px;
@@ -1034,13 +1037,14 @@ button:hover {
 
 #HD3Container h1{
 	position:absolute;
-	right:-120px;
+	right:-160px;
 	top:30px;
-	width:100px;
+	width:150px;
 	text-align:center;
 	font-size:24px;
 	line-height:1.2;
 	color:#F68565;
+	font-family:'Raleway';
 }
 
 #HD3Text{
@@ -1050,5 +1054,51 @@ button:hover {
 
 
 
+
+
+
+
+
+
+
+
+#subTitleForm{
+	width:100%;
+	background-color:#112F41;
+	position:relative;
+	border-top:2px solid #FC5B3F;
+	/*border:1px solid lightgrey;*/
+
+}
+
+
+
+
+#annuityFormContainer{
+	width:300px;
+	background-color:#068587;
+	padding-bottom:80px;
+	padding-top:20px;
+	padding-right:80px;
+	padding-left:80px;
+	/*border-radius:5px;*/
+	position:relative;
+	float:right;
+	text-align:center;
+	margin-top:100px;
+	font-family:'Lato';
+}
+
+.formTriangle {
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	border-right:30px solid #068587; 
+	position:relative;
+	right:105px;
+	top:70px;
+	
+}
 
 

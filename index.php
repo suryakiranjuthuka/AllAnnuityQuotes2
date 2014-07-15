@@ -63,7 +63,7 @@
 <section class="bottomShadow" id="subTitleForm">
 <div id="subTitleFormCenter">
 
-<div id="hex11" class=" bottomShadow allShadow hex11"><div id="hex11Text">Why an annuity?</div></div>
+<div id="hex11" class="bottomShadow allShadow hex11"><div id="hex11Text">Why an annuity?</div></div>
 
 <div id="hexContainer">
 
@@ -213,9 +213,11 @@
 
 <section id="hexDescription">
 
-	<div class="" id="HD1Container"><h1>Life-Long Income</h1><div id="HD1Text">With an annuity, you can have peace of mind in retirement. A quote from All Annuity quotes can help you find out  exactly how much to save and how long until you'll be able to retire. All you have to think about is where your next fishing spot will be.</div></div>
-    <div id="HD2Container"><h1>Best Rates Available</h1><div id="HD2Text">If you're receiving a quote from All Annuity Quotes, you know you're getting the best rates available for your annuity. We find the most trusted financial planners and advisors in your area and avoid commission driven agents who are just trying to make a sale.</div></div>
-    <div id="HD3Container"><h1>Guaranteed Principal</h1><div id="HD3Text">With an annuity, you are guaranteed to get back your principal investment when it finally begins paying off. Many types of annuities also offer a death benefit, which means that if you pass away before all your funds are returned to you, your beneficiaries will receive whatever you did not.</div></div>
+	<div class="" id="HD1Container"><h1>Life-Long Income</h1><div id="HD1Text">With an annuity, you can have peace of mind in retirement. A quote from All Annuity quotes can help you find out  exactly how much to save and how long until you'll be able to retire.</div></div>
+    
+    <div id="HD2Container"><h1>Best Rates Available</h1><div id="HD2Text">If you're receiving a quote from All Annuity Quotes, you know you're getting the best rates available for your annuity. A trusted financial planner from your area who cares about your finances will deliver your quote.</div></div>
+    
+    <div id="HD3Container"><h1>Guaranteed Principal</h1><div id="HD3Text">With an annuity, you are guaranteed to get back your principal investment when it finally begins paying off. Many types of annuities also offer a death benefit to protect your beneficiaries.</div></div>
 
 </section>
 
